@@ -1,0 +1,20 @@
+ProviderName,Under 25 Mbps,Over 25 Mbps,Percent Under 25,Percent Over 25,Municipality
+"Bigleaf Networks, Inc.",1.0,13.0,0.07142857142857142,0.9285714285714286,Revere
+Broadview Networks,2.0,1.0,0.6666666666666666,0.3333333333333333,Revere
+CELLCO,48.0,14.0,0.7741935483870968,0.22580645161290322,Revere
+"Cogent Communications, Inc.",3.0,4.0,0.42857142857142855,0.5714285714285714,Revere
+Comcast,2609.0,2677.0,0.49356791524782445,0.5064320847521756,Revere
+DSCI,3.0,,,,Revere
+Lightower Fiber Networks,3.0,10.0,0.23076923076923078,0.7692307692307693,Revere
+Lumen AS 3356,14.0,1.0,0.9333333333333333,0.06666666666666667,Revere
+Lumen AS209,1.0,4.0,0.2,0.8,Revere
+North Atlantic Networks,2.0,,,,Revere
+RCN,26.0,80.0,0.24528301886792453,0.7547169811320755,Revere
+T-Mobile USA,1457.0,618.0,0.7021686746987952,0.2978313253012048,Revere
+TelePacific Communications,3.0,,,,Revere
+Verizon,270.0,8.0,0.9712230215827338,0.02877697841726619,Revere
+Windstream Communications,4.0,1.0,0.8,0.2,Revere
+XO Communications,43.0,35.0,0.5512820512820513,0.44871794871794873,Revere
+AT&T US - 7018,,6.0,,,Revere
+Massachusetts Institute of Technology,,2.0,,,Revere
+USAI.NET,,1.0,,,Revere
