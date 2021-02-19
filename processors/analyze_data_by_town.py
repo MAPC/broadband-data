@@ -22,6 +22,7 @@ def get_provider_name(row):
 upload_providers = pd.DataFrame({'ProviderNumber': upload_data.ProviderNumber.unique()})
 download_providers = pd.DataFrame({'ProviderNumber': download_data.ProviderNumber.unique()})
 providers = upload_providers.append(download_providers)
+providers = providers.drop_duplicates()
 providers = providers.apply(get_provider_name, axis=1).apply(pd.Series).set_index('ProviderNumber')
 
 # Now Populate the ProviderName column with relevant data

@@ -27,8 +27,11 @@ def assign_provider_name(row):
     row['ProviderName'] = providers.loc[row['ProviderNumber'], 'ProviderName']
     return row
 
+import pdb; pdb.set_trace()
+
 data = data.apply(assign_provider_name, axis=1)
 
+import pdb; pdb.set_trace()
 tests_by_user = data.groupby(["ip", "date"]).max()
 
 all_speeds = pd.DataFrame(columns=[f'Under {args.threshold} Mbps',f'Over {args.threshold} Mbps',f'Percent Under {args.threshold}',f'Percent Over {args.threshold}','Municipality'])
