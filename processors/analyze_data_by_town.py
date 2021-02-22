@@ -40,12 +40,12 @@ all_speeds = pd.DataFrame(columns=[f'Under 25 Mbps',f'Over 25 Mbps',f'Percent Un
 
 municipalities = ['Chelsea', 'Revere', 'Everett']
 for municipality in municipalities:
-    upload_under = upload_tests_by_user[(tests_by_user["MeanThroughputMbps"] <= 3) & (tests_by_user["City"] == municipality)]\
+    upload_under = upload_tests_by_user[(upload_tests_by_user["MeanThroughputMbps"] <= 3) & (upload_tests_by_user["City"] == municipality)]\
         .groupby("ProviderName")["ProviderName"]\
         .count()\
         .rename(f'Under 3 Mbps')
 
-    upload_over = upload_tests_by_user[(tests_by_user["MeanThroughputMbps"] > 3) & (tests_by_user["City"] == municipality)]\
+    upload_over = upload_tests_by_user[(upload_tests_by_user["MeanThroughputMbps"] > 3) & (upload_tests_by_user["City"] == municipality)]\
         .groupby("ProviderName")["ProviderName"]\
         .count()\
         .rename(f'Over 3 Mbps')
@@ -54,12 +54,12 @@ for municipality in municipalities:
     upload_combined[f'Percent Under 3 Mbps'] = upload_combined[f'Under 3 Mbps'] / (upload_combined[f'Under 3 Mbps'] + upload_combined[f'Over 3 Mbps'])
     upload_combined[f'Percent Over 3 Mbps'] = upload_combined[f'Over 3 Mbps'] / (upload_combined[f'Under 3 Mbps'] + upload_combined[f'Over 3 Mbps'])
     
-    download_under = download_tests_by_user[(tests_by_user["MeanThroughputMbps"] <= 25) & (tests_by_user["City"] == municipality)]\
+    download_under = download_tests_by_user[(download_tests_by_user["MeanThroughputMbps"] <= 25) & (download_tests_by_user["City"] == municipality)]\
     .groupby("ProviderName")["ProviderName"]\
     .count()\
     .rename(f'Under 25 Mbps')
 
-    download_over = download_tests_by_user[(tests_by_user["MeanThroughputMbps"] > 25) & (tests_by_user["City"] == municipality)]\
+    download_over = download_tests_by_user[(download_tests_by_user["MeanThroughputMbps"] > 25) & (download_tests_by_user["City"] == municipality)]\
         .groupby("ProviderName")["ProviderName"]\
         .count()\
         .rename(f'Over 25 Mbps')
@@ -69,6 +69,7 @@ for municipality in municipalities:
     download_combined[f'Percent Over 25 Mbps'] = download_combined[f'Over 25 Mbps'] / (download_combined[f'Under 25 Mbps'] + download_combined[f'Over 25 Mbps'])
     
     combined = pd.concat([upload_combined, download_combined], axis=1)
+    combined = combined.assign(Municipality=municipality)
     all_speeds = all_speeds.append(combined)
 
 all_speeds.to_csv(f"data/finished/totals.csv")
