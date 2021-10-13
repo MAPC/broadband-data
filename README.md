@@ -42,7 +42,7 @@ There are many datasets available for the Census that may prove interesting for 
 ## MAPC Community Survey:
 In Summer of 2021 MAPC in partnership with Everett Chelsea and Revere and local CBOs conducted a broadband survey with over 2,000 responses through Qualtrics. Data will be made available with forthcoming Digital Access Reports.
 
-### _Potential Data Source: _Education Superhighway Bridge to Broadband 
+###_Potential Data Source: _Education Superhighway Bridge to Broadband 
 Pilot ongoing in 10 MA school districts to negotiate a secure data transfer between school district and internet services providers to identify for students in a school district three data points are they served by a provider, could they be served , not currently able to be served at that residence. More into about that program [here](https://www.educationsuperhighway.org/bridge-to-broadband/)
 
 ### _Potential Data Source:_ Cable Franchise Agreements
@@ -52,7 +52,7 @@ Cable television [franchise agreements]( https://www.mass.gov/lists/cable-televi
 ### _Potential Data Source:_ Form 500 Data
 Department of Telecommunications and Cable collect [form 500]( https://www.mass.gov/doc/paper-filing-instructions/download) documents that cable tv complaints submitted by residents.
 
-### _Potential Data Source:_ Better business Bureau and Review Sties
+###_Potential Data Source:_ Better business Bureau and Review Sties
 [Better Business Bureau]( https://www.bbb.org/) complaint data 
 
 ### _Potential Data Source:_ Zoom / Google Classroom Diagnostic Data
