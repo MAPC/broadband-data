@@ -58,5 +58,5 @@ Department of Telecommunications and Cable collect [form 500]( https://www.mass.
 ### _Potential Data Source:_ Zoom / Google Classroom Diagnostic Data
 We believe there is potential to leverage the data created by the expanded use of Zoom and Google Classroom. More info can be [found here](Broadband School Zoom-Google Data.docx)
 
-### _Potential Data Source: _Municipal Raspberry Pi Wi-Fi Mapping
+### _Potential Data Source:_ Municipal Raspberry Pi Wi-Fi Mapping
 Similar to [this example]( https://youtu.be/F05FyMTL9RY) share on Connect This!
