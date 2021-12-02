@@ -29,6 +29,7 @@ FCC data and resources can be [found here](https://www.fcc.gov/general/broadband
 
 [FCC coverage map](https://broadbandmap.fcc.gov/#/) This is the map with [funds](https://www.wiley.law/alert-Congress-Provides-Nearly-7-Billion-in-New-Broadband-Funding-in-the-Latest-COVID-19-Stimulus-Legislation) on way to [improve the map](https://statescoop.com/fcc-adopts-new-broadband-data-mapping-rules/) 
 
+
 ## Microsoft Data
 >Microsoft published an open dataset in May of 2021. “The data can be used for the purpose of analyzing, understanding, improving, or addressing problems related to broadband access….
 The data from these services are combined with the number of households per county and zip code[1]. Every time a device receives an update or connects to a Microsoft service, we can estimate the throughput speed of a machine. We know the size of the package sent to the computer, and we know the total time of the download. We also determine zip code level location data via reverse IP.”
@@ -42,17 +43,24 @@ There are many datasets available for the Census that may prove interesting for 
 ## MAPC Community Survey:
 In Summer of 2021 MAPC in partnership with Everett Chelsea and Revere and local CBOs conducted a broadband survey with over 2,000 responses through Qualtrics. Data will be made available with forthcoming Digital Access Reports.
 
-###_Potential Data Source: _Education Superhighway Bridge to Broadband 
+## National Telecommunications and Information Administration (NTIA) Indicators of Need. 
+Aggregates serveral datasrouces to showcase indicators of broadband need at Census Tract level
+[NTIA Indicators of Need Mapc](https://broadbandusa.maps.arcgis.com/apps/webappviewer/index.html?id=ba2dcd585f5e43cba41b7c1ebf2a43d0)
+
+## EBB Claims Tracker
+This tracker is updated on a weekly and monthly basis. Data at State and ZipCode level is available.
+[Emergency Broadband Benefit Program Enrollments and Claims Tracker](https://www.usac.org/about/emergency-broadband-benefit-program/emergency-broadband-benefit-program-enrollments-and-claims-tracker/)
+
+### _Potential Data Source:_Education Superhighway Bridge to Broadband 
 Pilot ongoing in 10 MA school districts to negotiate a secure data transfer between school district and internet services providers to identify for students in a school district three data points are they served by a provider, could they be served , not currently able to be served at that residence. More into about that program [here](https://www.educationsuperhighway.org/bridge-to-broadband/)
 
 ### _Potential Data Source:_ Cable Franchise Agreements
 Cable television [franchise agreements]( https://www.mass.gov/lists/cable-television-licenses), managed at the municipal level have similar clauses that require companies to share with municipalities map of assets. Often section 4.12, subsections (a) and (b) of the Municipal Franchise Agreements 
 
-
 ### _Potential Data Source:_ Form 500 Data
 Department of Telecommunications and Cable collect [form 500]( https://www.mass.gov/doc/paper-filing-instructions/download) documents that cable tv complaints submitted by residents.
 
-###_Potential Data Source:_ Better business Bureau and Review Sties
+### _Potential Data Source:_ Better business Bureau and Review Sties
 [Better Business Bureau]( https://www.bbb.org/) complaint data 
 
 ### _Potential Data Source:_ Zoom / Google Classroom Diagnostic Data
